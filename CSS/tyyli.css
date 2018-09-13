@@ -4,6 +4,7 @@ body {
     margin: 0;
     height: 100%;
     width: 100%;
+    min-height: 100%;
 }
 
 body {
@@ -29,10 +30,12 @@ body {
 h1 {
     margin: 0;
     color: white !important;
+    font-family: 'Montserrat', sans-serif !important;
 }
 
 h2 {
     color: white !important;
+    font-family: 'Montserrat', sans-serif !important;
 }
 
 .aloitus {}
@@ -55,10 +58,22 @@ h2 {
     margin: 0;
 }
 
+#linja {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
 .fa {
     color: aqua;
+    font-size: 15px !important;
+    padding: 5px;
+    cursor: pointer;
 
 }
+
+
 
 
 
@@ -132,4 +147,14 @@ h2 {
 
 #ykkonen13 {
     display: none;
+}
+
+@media (max-width: 767px) {
+    h1 {
+        font-size: 30px !important;
+    }
+
+    h2 {
+        font-size: 20px !important;
+    }
 }
