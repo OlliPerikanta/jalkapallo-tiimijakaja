@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Tiimijakaja</title>
+    <meta name="viewport" content="widt=device-width, initial-scale=1">
+    <meta charset="UTF-8" />
+
+    <link rel="stylesheet" href="CSS/tyyli.css">
+
+    <script src="JS/javascript.js"></script>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
+
+</head>
+
+<body>
+    <script type="text/javascript">
+        function painatasta() {
+            var randomisti = Math.floor(Math.random() * pelaaJat.length);
+            document.getElementById("ykkonen").innerHTML = pelaaJat[randomisti];
+
+            var randomisti = Math.floor(Math.random() * pelaaJat.length);
+            document.getElementById("ykkonen1").innerHTML = pelaaJat[randomisti];
+
+            var randomisti = Math.floor(Math.random() * pelaaJat.length);
+            document.getElementById("ykkonen2").innerHTML = pelaaJat[randomisti];
+
+            var randomisti = Math.floor(Math.random() * pelaaJat.length);
+            document.getElementById("ykkonen3").innerHTML = pelaaJat[randomisti];
+
+            var randomisti = Math.floor(Math.random() * pelaaJat.length);
+            document.getElementById("ykkonen4").innerHTML = pelaaJat[randomisti];
+
+            var randomisti = Math.floor(Math.random() * pelaaJat.length);
+            document.getElementById("ykkonen5").innerHTML = pelaaJat[randomisti];
+
+            var randomisti = Math.floor(Math.random() * pelaaJat.length);
+            document.getElementById("ykkonen6").innerHTML = pelaaJat[randomisti];
+
+            var randomisti = Math.floor(Math.random() * pelaaJat.length);
+            document.getElementById("ykkonen7").innerHTML = pelaaJat[randomisti];
+
+            var randomisti = Math.floor(Math.random() * pelaaJat.length);
+            document.getElementById("ykkonen8").innerHTML = pelaaJat[randomisti];
+
+            var randomisti = Math.floor(Math.random() * pelaaJat.length);
+            document.getElementById("ykkonen9").innerHTML = pelaaJat[randomisti];
+
+            var randomisti = Math.floor(Math.random() * pelaaJat.length);
+            document.getElementById("ykkonen10").innerHTML = pelaaJat[randomisti];
+
+            var randomisti = Math.floor(Math.random() * pelaaJat.length);
+            document.getElementById("ykkonen11").innerHTML = pelaaJat[randomisti];
+
+            var randomisti = Math.floor(Math.random() * pelaaJat.length);
+            document.getElementById("ykkonen12").innerHTML = pelaaJat[randomisti];
+
+            var randomisti = Math.floor(Math.random() * pelaaJat.length);
+            document.getElementById("ykkonen13").innerHTML = pelaaJat[randomisti];
+
+        }
+
+        var pelaaJat = ["Olli", "Jenna", "Anssi", "Miika", "Mari", "Pyry", "Hanna", "Jenny", "Joonas", "Petri", "Teemu", "Toni", "Emmi", "Terhi"]
+
+    </script>
+    <div class="aloitus">
+        <div class="otsikko">
+            <h1>Tiimijakaja</h1>
+        </div>
+        <div class="row">
+            <div class="col">
+                <h2>Tiimi 1</h2>
+                <ol>
+                    <li style="color: white;" id="ykkonen"></li>
+                    <li style="color: white;" id="ykkonen2"></li>
+                    <li style="color: white;" id="ykkonen4"></li>
+                    <li style="color: white;" id="ykkonen6"></li>
+                    <li style="color: white;" id="ykkonen8"></li>
+                    <li style="color: white;" id="ykkonen10"></li>
+                    <li style="color: white;" id="ykkonen12"></li>
+                </ol>
+            </div>
+            <div class="col">
+                <h2>Tiimi 2</h2>
+                <ol>
+                    <li style="color: white;" id="ykkonen1"></li>
+                    <li style="color: white;" id="ykkonen3"></li>
+                    <li style="color: white;" id="ykkonen5"></li>
+                    <li style="color: white;" id="ykkonen7"></li>
+                    <li style="color: white;" id="ykkonen9"></li>
+                    <li style="color: white;" id="ykkonen11"></li>
+                    <li style="color: white;" id="ykkonen13"></li>
+                </ol>
+            </div>
+        </div>
+        <br>
+        <br>
+        <br>
+        <br>
+        <div class="lisaa">
+            <button id="lisaa" onclick="painatasta();">Lisää</button>
+        </div>
+        <div style="padding-left: 50px;" class="dropdown">
+            <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown">
+      Dropdown button </button>
+            <div class="dropdown-menu">
+                <a class="dropdown-item" href="#">Link 1</a>
+
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

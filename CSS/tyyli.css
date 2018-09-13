@@ -1,0 +1,135 @@
+html,
+body {
+    padding: 0;
+    margin: 0;
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    background-image: url(../IMG/taustakuva.jpg);
+    height: 100%;
+    width: 100%;
+    -webkit-background-position: center;
+    -moz-background-position: center;
+    -o-background-position: center;
+    background-position: center;
+    -webkit-background-repeat: no-repeat;
+    -moz-background-repeat: no-repeat;
+    -o-background-repeat: no-repeat;
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+
+
+h1 {
+    margin: 0;
+    color: white !important;
+}
+
+h2 {
+    color: white !important;
+}
+
+.aloitus {}
+
+.otsikko {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.row {
+    margin: 0 !important;
+}
+
+.col {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+}
+
+.fa {
+    color: aqua;
+
+}
+
+
+
+.lisaa {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.noppa {
+    padding: 10px;
+}
+
+.btn-primary {
+    color: black !important;
+    background-color: darkgray !important;
+    border-color: black !important;
+}
+
+#ykkonen {
+    display: none;
+}
+
+#ykkonen1 {
+    display: none;
+}
+
+#ykkonen2 {
+    display: none;
+}
+
+#ykkonen3 {
+    display: none;
+}
+
+#ykkonen4 {
+    display: none;
+}
+
+#ykkonen5 {
+    display: none;
+}
+
+#ykkonen6 {
+    display: none;
+}
+
+#ykkonen7 {
+    display: none;
+}
+
+#ykkonen8 {
+    display: none;
+}
+
+#ykkonen9 {
+    display: none;
+}
+
+#ykkonen10 {
+    display: none;
+}
+
+#ykkonen11 {
+    display: none;
+}
+
+#ykkonen12 {
+    display: none;
+}
+
+#ykkonen13 {
+    display: none;
+}
