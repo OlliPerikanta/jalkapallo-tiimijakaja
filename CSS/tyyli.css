@@ -68,11 +68,14 @@ h2 {
 .fa {
     color: aqua;
     font-size: 15px !important;
-    padding: 5px;
+    padding: 6px;
     cursor: pointer;
 
 }
 
+ol li {
+    padding-top: 2px;
+}
 
 
 
