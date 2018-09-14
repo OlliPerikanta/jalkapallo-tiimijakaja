@@ -38,7 +38,9 @@ h2 {
     font-family: 'Montserrat', sans-serif !important;
 }
 
-.aloitus {}
+.aloitus {
+    min-height: 100%;
+}
 
 .otsikko {
     display: flex;
@@ -49,6 +51,12 @@ h2 {
 .row {
     margin: 0 !important;
 }
+
+.tiimienkeskitys {
+    padding-right: 20px;
+}
+
+
 
 .col {
     justify-content: center;
@@ -66,7 +74,7 @@ h2 {
 }
 
 .fa {
-    color: aqua;
+    color: aquamarine;
     font-size: 15px !important;
     padding: 6px;
     cursor: pointer;
@@ -77,23 +85,42 @@ ol li {
     padding-top: 2px;
 }
 
-
+.suora {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
 
 
 .lisaa {
     display: flex;
     justify-content: center;
     align-items: center;
+    padding-bottom: 20px;
 }
 
 .noppa {
     padding: 10px;
 }
 
+button {
+    border-radius: 28px !important;
+    color: white !important;
+    border: inherit;
+    background-image: linear-gradient( to top, #F18D9E, #F52549);
+    padding: 7px 15px 7px 15px;
+}
+
 .btn-primary {
-    color: black !important;
-    background-color: darkgray !important;
-    border-color: black !important;
+    border-radius: 28px !important;
+    color: white !important;
+    border: inherit;
+    background-image: -webkit-linear-gradient(to bottom, #eb94d0, #2079b0);
+    background-image: -moz-linear-gradient(to bottom, #eb94d0, #2079b0);
+    background-image: -ms-linear-gradient(to bottom, #eb94d0, #2079b0);
+    background-image: -o-linear-gradient(to bottom, #5BC8AC, #2079b0);
+    background-image: linear-gradient(to bottom, #5BC8AC, #2079b0);
 }
 
 #ykkonen {
@@ -154,7 +181,7 @@ ol li {
 
 @media (max-width: 767px) {
     h1 {
-        font-size: 30px !important;
+        font-size: 25px !important;
     }
 
     h2 {
