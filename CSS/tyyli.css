@@ -108,14 +108,15 @@ button {
     border-radius: 28px !important;
     color: white !important;
     border: inherit;
-    background-image: linear-gradient( to top, #F18D9E, #F52549);
+    background-image: linear-gradient( to bottom, #F18D9E, #F52549);
     padding: 7px 15px 7px 15px;
+    cursor: pointer;
 }
 
 .btn-primary {
     border-radius: 28px !important;
     color: white !important;
-    border: inherit;
+    border: inherit !important;
     background-image: -webkit-linear-gradient(to bottom, #eb94d0, #2079b0);
     background-image: -moz-linear-gradient(to bottom, #eb94d0, #2079b0);
     background-image: -ms-linear-gradient(to bottom, #eb94d0, #2079b0);
